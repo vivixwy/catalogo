@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo Dexter</title>
+    <link rel="stylesheet" href="estilo.css">
+    <h1>Dexter</h1>
+</head>
+<body>
+    <div class="catalogo">
+        <div class="personagem" onclick="mostrarInfo('Dexter Morgan', 'https //dexter.fandom.com/wiki/Dexter_Morgan')">
+            <img src="/tmp/guest-daspqb/Imagens/dex_sp_hero_landscape.jpg" alt="Dexter Morgan">
+            <p>Dexter Morgan</p>
+        </div>
+        <div class="personagem" onclick="mostrarInfo('Debra Morgan', 'https //dexter.fandom.com/wiki/Debra_Morgan')">
+            <img src="/tmp/guest-daspqb/Imagens/debra.jpeg" alt="Debra Morgan">
+            <p>Debra Morgan</p>
+        </div>
+        <div class="catalogo">
+            <div class="personagem" onclick="mostrarInfo('Brian Moser','https //brian.fandom.com/wiki/Brian_Moser')">
+            <img src="/tmp/guest-daspqb/Imagens/brian.jpg" >
+            <p>Brian moser</p>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function mostrarInfo(nome, url) {
+            window.location.href = url;
+        }
+    </script>
+</body>
+</html>
